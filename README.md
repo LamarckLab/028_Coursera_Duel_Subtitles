@@ -5,6 +5,6 @@
 ```Javascript
 var myvideo = document.getElementsByTagName('video')[0];
 for (var i = 0; i < myvideo.textTracks.length; i++) {
-    ["en", "zh-CN"].indexOf(myvideo.textTracks[i].language) > -1 ? myvideo.textTracks[i].mode = "showing" : myvideo.textTracks[i].mode = "hidden";
+    ["zh-CN", "en"].indexOf(myvideo.textTracks[i].language) > -1 ? myvideo.textTracks[i].mode = "showing" : myvideo.textTracks[i].mode = "hidden";
 }
 ```
