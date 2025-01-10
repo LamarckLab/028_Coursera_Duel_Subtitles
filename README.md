@@ -1,0 +1,2 @@
+# 028_Coursera_Duel_Subtitles
+这段前端JS代码用于临时添加Coursera的双字幕
